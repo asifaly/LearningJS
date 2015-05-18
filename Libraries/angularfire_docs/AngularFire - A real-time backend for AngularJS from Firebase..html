@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://www.firebase.com/docs/web/libraries/angular/api.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>AngularFire - A real-time backend for AngularJS from Firebase.</title>
+
+    <!-- Flatdoc -->
+    <script src="./AngularFire - A real-time backend for AngularJS from Firebase._files/jquery.min.js"></script>
+    <script src="./AngularFire - A real-time backend for AngularJS from Firebase._files/legacy.js"></script>
+    <script src="./AngularFire - A real-time backend for AngularJS from Firebase._files/flatdoc.js"></script>
+
+    <!-- Flatdoc theme -->
+    <link href="https://www.firebase.com/docs/web/libraries/angular/api/css/flatdoc.css" rel="stylesheet">
+    <script src="./AngularFire - A real-time backend for AngularJS from Firebase._files/script.js"></script>
+
+    <!-- Meta -->
+    <meta content="AngularFire" property="og:title">
+    <meta content="AngularFire - A realtime backend for AngularJS from Firebase." name="description">
+
+    <!-- Initializer -->
+    <script>
+      Flatdoc.run({
+        fetcher: Flatdoc.file("api/documentation.md")
+      });
+    </script>
+  </head>
+
+  <body role="flatdoc">
+    <div class="header">
+      <div class="left">
+        <h1>AngularFire</h1>
+        <ul>
+          <li><a href="https://github.com/firebase/angularfire">View on GitHub</a></li>
+          <li><a href="https://github.com/firebase/angularfire/issues">Issues</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <iframe src="about:blank" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+      </div>
+    </div>
+    <div class="content-root">
+      <div class="menubar fixed">
+        <div class="menu section" role="flatdoc-menu"><ul><li id="root-item" class="level-0"><ul class="level-1" id="root-list"><li id="angularfire-item" class="level-1"><a id="angularfire-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire" class="level-1">AngularFire</a><ul class="level-2" id="angularfire-list"><li id="angularfire-firebaseobject-item" class="level-2"><a id="angularfire-firebaseobject-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject" class="level-2">$firebaseObject</a><ul class="level-3" id="angularfire-firebaseobject-list"><li id="angularfire-firebaseobject-id-item" class="level-3"><a id="angularfire-firebaseobject-id-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject-id" class="level-3">$id</a></li><li id="angularfire-firebaseobject-priority-item" class="level-3"><a id="angularfire-firebaseobject-priority-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject-priority" class="level-3">$priority</a></li><li id="angularfire-firebaseobject-value-item" class="level-3"><a id="angularfire-firebaseobject-value-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject-value" class="level-3">$value</a></li><li id="angularfire-firebaseobject-remove-item" class="level-3"><a id="angularfire-firebaseobject-remove-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject-remove" class="level-3">$remove()</a></li><li id="angularfire-firebaseobject-save-item" class="level-3"><a id="angularfire-firebaseobject-save-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject-save" class="level-3">$save()</a></li><li id="angularfire-firebaseobject-loaded-item" class="level-3"><a id="angularfire-firebaseobject-loaded-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject-loaded" class="level-3">$loaded()</a></li><li id="angularfire-firebaseobject-ref-item" class="level-3"><a id="angularfire-firebaseobject-ref-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject-ref" class="level-3">$ref()</a></li><li id="angularfire-firebaseobject-bindtoscope-varname-item" class="level-3"><a id="angularfire-firebaseobject-bindtoscope-varname-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject-bindtoscope-varname" class="level-3">$bindTo(scope, varName)</a></li><li id="angularfire-firebaseobject-watchcallback-context-item" class="level-3"><a id="angularfire-firebaseobject-watchcallback-context-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject-watchcallback-context" class="level-3">$watch(callback, context)</a></li><li id="angularfire-firebaseobject-destroy-item" class="level-3"><a id="angularfire-firebaseobject-destroy-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject-destroy" class="level-3">$destroy()</a></li></ul></li><li id="angularfire-firebasearray-item" class="level-2"><a id="angularfire-firebasearray-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebasearray" class="level-2">$firebaseArray</a><ul class="level-3" id="angularfire-firebasearray-list"><li id="angularfire-firebasearray-addnewdata-item" class="level-3"><a id="angularfire-firebasearray-addnewdata-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebasearray-addnewdata" class="level-3">$add(newData)</a></li><li id="angularfire-firebasearray-removerecordorindex-item" class="level-3"><a id="angularfire-firebasearray-removerecordorindex-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebasearray-removerecordorindex" class="level-3">$remove(recordOrIndex)</a></li><li id="angularfire-firebasearray-saverecordorindex-item" class="level-3"><a id="angularfire-firebasearray-saverecordorindex-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebasearray-saverecordorindex" class="level-3">$save(recordOrIndex)</a></li><li id="angularfire-firebasearray-getrecordkey-item" class="level-3"><a id="angularfire-firebasearray-getrecordkey-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebasearray-getrecordkey" class="level-3">$getRecord(key)</a></li><li id="angularfire-firebasearray-keyatrecordorindex-item" class="level-3"><a id="angularfire-firebasearray-keyatrecordorindex-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebasearray-keyatrecordorindex" class="level-3">$keyAt(recordOrIndex)</a></li><li id="angularfire-firebasearray-indexforkey-item" class="level-3"><a id="angularfire-firebasearray-indexforkey-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebasearray-indexforkey" class="level-3">$indexFor(key)</a></li><li id="angularfire-firebasearray-loaded-item" class="level-3"><a id="angularfire-firebasearray-loaded-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebasearray-loaded" class="level-3">$loaded()</a></li><li id="angularfire-firebasearray-ref-item" class="level-3"><a id="angularfire-firebasearray-ref-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebasearray-ref" class="level-3">$ref()</a></li><li id="angularfire-firebasearray-watchcb-context-item" class="level-3"><a id="angularfire-firebasearray-watchcb-context-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebasearray-watchcb-context" class="level-3">$watch(cb[, context])</a></li><li id="angularfire-firebasearray-destroy-item" class="level-3"><a id="angularfire-firebasearray-destroy-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebasearray-destroy" class="level-3">$destroy()</a></li></ul></li><li id="angularfire-extending-the-services-item" class="level-2"><a id="angularfire-extending-the-services-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-extending-the-services" class="level-2">Extending the Services</a><ul class="level-3" id="angularfire-extending-the-services-list"><li id="angularfire-extending-the-services-firebaseobjectextend-item" class="level-3"><a id="angularfire-extending-the-services-firebaseobjectextend-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-extending-the-services-firebaseobjectextend" class="level-3">$firebaseObject.$extend</a></li><li id="angularfire-extending-the-services-firebasearrayextend-item" class="level-3"><a id="angularfire-extending-the-services-firebasearrayextend-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-extending-the-services-firebasearrayextend" class="level-3">$firebaseArray.$extend</a></li><li id="angularfire-extending-the-services-passing-a-class-into-extend-item" class="level-3"><a id="angularfire-extending-the-services-passing-a-class-into-extend-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-extending-the-services-passing-a-class-into-extend" class="level-3">Passing a Class into $extend</a></li><li id="angularfire-extending-the-services-decorating-the-services-item" class="level-3"><a id="angularfire-extending-the-services-decorating-the-services-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-extending-the-services-decorating-the-services" class="level-3">Decorating the Services</a></li></ul></li><li id="angularfire-creating-angularfire-services-item" class="level-2"><a id="angularfire-creating-angularfire-services-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-creating-angularfire-services" class="level-2">Creating AngularFire Services</a></li><li id="angularfire-users-and-authentication-item" class="level-2"><a id="angularfire-users-and-authentication-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication" class="level-2">Users and Authentication</a><ul class="level-3" id="angularfire-users-and-authentication-list"><li id="angularfire-users-and-authentication-authentication-service-constructor-item" class="level-3"><a id="angularfire-users-and-authentication-authentication-service-constructor-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-authentication-service-constructor" class="level-3">Authentication Service Constructor</a></li><li id="angularfire-users-and-authentication-authwithcustomtokenauthtoken-options-item" class="level-3"><a id="angularfire-users-and-authentication-authwithcustomtokenauthtoken-options-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-authwithcustomtokenauthtoken-options" class="level-3">$authWithCustomToken(authToken[, options])</a></li><li id="angularfire-users-and-authentication-authanonymouslyoptions-item" class="level-3"><a id="angularfire-users-and-authentication-authanonymouslyoptions-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-authanonymouslyoptions" class="level-3">$authAnonymously([options])</a></li><li id="angularfire-users-and-authentication-authwithpasswordcredentials-options-item" class="level-3"><a id="angularfire-users-and-authentication-authwithpasswordcredentials-options-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-authwithpasswordcredentials-options" class="level-3">$authWithPassword(credentials[, options])</a></li><li id="angularfire-users-and-authentication-authwithoauthpopupprovider-options-item" class="level-3"><a id="angularfire-users-and-authentication-authwithoauthpopupprovider-options-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-authwithoauthpopupprovider-options" class="level-3">$authWithOAuthPopup(provider[, options])</a></li><li id="angularfire-users-and-authentication-authwithoauthredirectprovider-options-item" class="level-3"><a id="angularfire-users-and-authentication-authwithoauthredirectprovider-options-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-authwithoauthredirectprovider-options" class="level-3">$authWithOAuthRedirect(provider[, options])</a></li><li id="angularfire-users-and-authentication-authwithoauthtokenprovider-credentials-options-item" class="level-3"><a id="angularfire-users-and-authentication-authwithoauthtokenprovider-credentials-options-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-authwithoauthtokenprovider-credentials-options" class="level-3">$authWithOAuthToken(provider, credentials[, options])</a></li><li id="angularfire-users-and-authentication-getauth-item" class="level-3"><a id="angularfire-users-and-authentication-getauth-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-getauth" class="level-3">$getAuth()</a></li><li id="angularfire-users-and-authentication-onauthcallback-context-item" class="level-3"><a id="angularfire-users-and-authentication-onauthcallback-context-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-onauthcallback-context" class="level-3">$onAuth(callback[, context])</a></li><li id="angularfire-users-and-authentication-unauth-item" class="level-3"><a id="angularfire-users-and-authentication-unauth-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-unauth" class="level-3">$unauth()</a></li><li id="angularfire-users-and-authentication-waitforauth-item" class="level-3"><a id="angularfire-users-and-authentication-waitforauth-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-waitforauth" class="level-3">$waitForAuth()</a></li><li id="angularfire-users-and-authentication-requireauth-item" class="level-3"><a id="angularfire-users-and-authentication-requireauth-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-requireauth" class="level-3">$requireAuth()</a></li><li id="angularfire-users-and-authentication-createusercredentials-item" class="level-3"><a id="angularfire-users-and-authentication-createusercredentials-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-createusercredentials" class="level-3">$createUser(credentials)</a></li><li id="angularfire-users-and-authentication-changepasswordcredentials-item" class="level-3"><a id="angularfire-users-and-authentication-changepasswordcredentials-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-changepasswordcredentials" class="level-3">$changePassword(credentials)</a></li><li id="angularfire-users-and-authentication-changeemailcredentials-item" class="level-3"><a id="angularfire-users-and-authentication-changeemailcredentials-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-changeemailcredentials" class="level-3">$changeEmail(credentials)</a></li><li id="angularfire-users-and-authentication-removeusercredentials-item" class="level-3"><a id="angularfire-users-and-authentication-removeusercredentials-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-removeusercredentials" class="level-3">$removeUser(credentials)</a></li><li id="angularfire-users-and-authentication-resetpasswordcredentials-item" class="level-3"><a id="angularfire-users-and-authentication-resetpasswordcredentials-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-resetpasswordcredentials" class="level-3">$resetPassword(credentials)</a></li></ul></li><li id="angularfire-browser-compatibility-item" class="level-2"><a id="angularfire-browser-compatibility-link" href="https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-browser-compatibility" class="level-2 active">Browser Compatibility</a></li></ul></li></ul></li></ul></div>
+      </div>
+      <div role="flatdoc-content" class="content"><h1 id="angularfire">AngularFire</h1><p>AngularFire is the officially supported AngularJS binding for Firebase. This binding lets you
+associate Firebase references with Angular models so that they will be transparently and immediately
+kept in sync with the Firebase servers and with all other clients currently using your application.</p><p>The focus of this library is to abstract much of the boilerplate involved in creating Angular
+bindings from Firebase data, and to make it easy to create services that sync to Firebase data.
+However, this library does not attempt to replace the capabilities of the entire Firebase API
+and that may still be suitable for some advanced usages. Feel free to use the methods provided by
+the core Firebase SDK alongside the AngularFire binding.</p><h2 id="angularfire-firebaseobject">$firebaseObject</h2><p>The <code>$firebaseObject</code> service takes a <code>Firebase</code> reference and returns a JavaScript object which
+contains the data at the provided <code>Firebase</code> reference and some extra AngularFire-specific fields.
+Note that the data will not be available immediately since retrieving it is an asynchronous
+operation. You can use the <code>$loaded()</code> promise to get notified when the data has loaded.</p><p>This service automatically keeps local objects in sync with any changes made to the remote Firebase
+data. <strong>However, note that any changes to that object will <em>not</em> automatically result in any changes
+to the remote data</strong>. All such changes will have to be performed by updating the object directly and
+then calling <code>$save()</code> on the object, or by utilizing <code>$bindTo()</code> (see more below).</p><pre><code class="lang-js">app.controller(<span class="string">"MyCtrl"</span>, [<span class="string">"$scope"</span>, <span class="string">"$firebaseObject"</span>,
+  <span class="keyword">function</span>($scope, $firebaseObject) {
+     <span class="keyword">var</span> ref = <span class="keyword"><span class="keyword">new</span></span> <span class="init">Firebase</span>(URL);
+
+     <span class="keyword">var</span> obj = $firebaseObject(ref);
+
+     <span class="comment">// to take an action after the data loads, use the $loaded() promise</span>
+     obj.$loaded().then(<span class="keyword">function</span>() {
+        console.log(<span class="string">"loaded record:"</span>, obj.$id, obj.someOtherKeyInData);
+
+       <span class="comment">// To iterate the key/value pairs of the object, use angular.forEach()</span>
+       angular.forEach(obj, <span class="keyword">function</span>(value, key) {
+          console.log(key, value);
+       });
+     });
+
+     <span class="comment">// To make the data available in the DOM, assign it to $scope</span>
+     $scope.data = obj;
+
+     <span class="comment">// For three-way data bindings, bind it to the scope instead</span>
+     obj.$bindTo($scope, <span class="string">"data"</span>);
+  }
+]);</code></pre><h3 id="angularfire-firebaseobject-id">$id</h3><p>The Firebase key where this record is stored. The same as <code>obj.$ref().key()</code>.</p><h3 id="angularfire-firebaseobject-priority">$priority</h3><p>The priority for this record according to the last update we received. Modifying this value
+and then calling <code>$save()</code> will also update the server’s priority.</p><p><strong>IMPORTANT NOTE</strong>: Because Angular’s <code>$watch()</code> function ignores keys prefixed with <code>$</code>, changing
+this field inside the <code>$bindTo()</code> function will not trigger an update unless a field without a <code>$</code>
+prefix is also updated. It is best to avoid using <code>$bindTo()</code> for editing <code>$</code> variables and just
+rely on the <code>$save()</code> method.</p><h3 id="angularfire-firebaseobject-value">$value</h3><p>If the value in Firebase is a primitive (boolean, string, or number) then the value will
+be stored under this <code>$value</code> key. Modifying this value and then calling <code>$save()</code> will also
+update the server’s value.</p><p>Note that any time other keys exist, this one will be ignored. To change an object to
+a primitive value, delete the other keys and add this key to the object. As a shortcut, we can use:</p><pre><code class="lang-text">var obj = $firebaseObject(ref); <span class="comment">// an object with data keys</span>
+$firebaseUtils.updateRec(obj, newPrimitiveValue); <span class="comment">// updateRec will delete the other keys for us</span></code></pre><p><strong>IMPORTANT NOTE</strong>: Because Angular’s <code>$watch()</code> function ignores keys prefixed with <code>$</code>, changing
+this field inside the <code>$bindTo()</code> function will not trigger an update unless a field without a <code>$</code>
+prefix is also updated. It is best to avoid using <code>$bindTo()</code> for editing <code>$</code> variables and just
+rely on the <code>$save()</code> method.</p><h3 id="angularfire-firebaseobject-remove">$remove()</h3><p>Removes the entire object locally and from Firebase. This method returns a promise that will be
+fulfilled when the data has been removed from the server. The promise will be resolved with a
+<code>Firebase</code> reference for the exterminated record.</p><pre><code class="lang-js"><span class="keyword">var</span> obj = $firebaseObject(ref);
+obj.$remove().then(<span class="keyword">function</span>(ref) {
+  <span class="comment">// data has been deleted locally and in Firebase</span>
+}, <span class="keyword">function</span>(error) {
+  console.log(<span class="string">"Error:"</span>, error);
+});</code></pre><h3 id="angularfire-firebaseobject-save">$save()</h3><p>If changes are made to data, then calling <code>$save()</code> will push those changes to the server. This
+method returns a promise that will resolve with this object’s <code>Firebase</code> reference when the write
+is completed.</p><pre><code class="lang-js"><span class="keyword">var</span> obj = $firebaseObject(ref);
+obj.foo = <span class="string">"bar"</span>;
+obj.$save().then(<span class="keyword">function</span>(ref) {
+  ref.key() === obj.$id; <span class="comment">// true</span>
+}, <span class="keyword">function</span>(error) {
+  console.log(<span class="string">"Error:"</span>, error);
+});</code></pre><h3 id="angularfire-firebaseobject-loaded">$loaded()</h3><p>Returns a promise which is resolved when the initial object data has been downloaded from Firebase.
+The promise resolves to the <code>$firebaseObject</code> itself.</p><pre><code class="lang-js"><span class="keyword">var</span> obj = $firebaseObject(ref);
+obj.$loaded()
+  .then(<span class="keyword">function</span>(data) {
+    console.log(data === obj); <span class="comment">// true</span>
+  })
+  .catch(<span class="keyword">function</span>(error) {
+    console.error(<span class="string">"Error:"</span>, error);
+  });</code></pre><p>As a shortcut, the <code>resolve()</code> / <code>reject()</code> methods can optionally be passed directly into <code>$loaded()</code>:</p><pre><code class="lang-js"><span class="keyword">var</span> obj = $firebaseObject(ref);
+obj.$loaded(
+  <span class="keyword">function</span>(data) {
+    console.log(data === obj); <span class="comment">// true</span>
+  },
+  <span class="keyword">function</span>(error) {
+    console.error(<span class="string">"Error:"</span>, error);
+  }
+);</code></pre><h3 id="angularfire-firebaseobject-ref">$ref()</h3><p>Returns the <code>Firebase</code> reference used to create this object.</p><pre><code class="lang-js"><span class="keyword">var</span> ob = $firebaseObject(ref);
+obj.$ref() === ref; <span class="comment">// true</span></code></pre><h3 id="angularfire-firebaseobject-bindtoscope-varname">$bindTo(scope, varName)</h3><p>Creates a three-way binding between a scope variable and Firebase data. When the <code>scope</code> data is
+updated, changes are pushed to Firebase, and when changes occur in Firebase, they are pushed
+instantly into <code>scope</code>. This method returns a promise that resolves after the initial value is
+pulled from Firebase and set in the <code>scope</code> variable.</p><pre><code class="lang-js"><span class="keyword">var</span> ref = <span class="keyword"><span class="keyword">new</span></span> <span class="init">Firebase</span>(URL); <span class="comment">// assume value here is { foo: <span class="string">"bar"</span> }</span>
+<span class="keyword">var</span> obj = $firebaseObject(ref);
+
+obj.$bindTo($scope, <span class="string">"data"</span>).then(<span class="keyword">function</span>() {
+  console.log($scope.data); <span class="comment">// { foo: <span class="string">"bar"</span> }</span>
+  $scope.data.foo = <span class="string">"baz"</span>;  <span class="comment">// will be saved to Firebase</span>
+  ref.set({ foo: <span class="string">"baz"</span> });  <span class="comment">// this would update Firebase and $scope.data</span>
+});</code></pre><p>We can now bind to any property on our object directly in the HTML, and have it saved
+instantly to Firebase. Security and Firebase Rules can be used for validation to ensure
+data is formatted correctly at the server.</p><pre><code class="lang-html">&lt;!--
+  This input field has three-way data binding to Firebase
+  (changing value updates remote data; remote changes are applied here)
+--&gt;
+&lt;<span class="keyword">input</span> type=<span class="string">"text"</span> ng-model=<span class="string">"data.foo"</span> /&gt;</code></pre><p>Only one scope variable can be bound at a time. If a second attempts to bind to the same
+<code>$firebaseObject</code> instance, the promise will be rejected and the bind will fail.</p><p><strong>IMPORTANT NOTE</strong>: Angular does not report variables prefixed with <code>$</code> to any <code>$watch()</code> listeners.
+a simple workaround here is to use a variable prefixed with <code>_</code>, which will not be saved to the
+server, but will trigger <code>$watch()</code>.</p><pre><code class="lang-js"><span class="keyword">var</span> obj = $firebaseObject(ref);
+obj.$bindTo($scope, <span class="string">"widget"</span>).then(<span class="keyword">function</span>() {
+  $scope.widget.$priority = <span class="number">99</span>;
+  $scope.widget._updated = true;
+})</code></pre><p>If <code>$destroy()</code> is emitted by <code>scope</code> (this happens when a controller is destroyed), then this
+object is automatically unbound from <code>scope</code>. It can also be manually unbound using the
+<code>unbind()</code> method, which is passed into the promise callback.</p><pre><code class="lang-js"><span class="keyword">var</span> obj = $firebaseObject(ref);
+obj.$bindTo($scope, <span class="string">"data"</span>).then(<span class="keyword">function</span>(unbind) {
+  <span class="comment">// unbind this later</span>
+  <span class="comment">//unbind();</span>
+});</code></pre><h3 id="angularfire-firebaseobject-watchcallback-context">$watch(callback, context)</h3><p>Registers an event listener which will be notified any time there is a change to the data. Returns
+an unregister function that, when invoked, will stop notifying the callback of changes.</p><pre><code class="lang-js"><span class="keyword">var</span> obj = $firebaseObject(ref);
+<span class="keyword">var</span> unwatch = obj.$watch(<span class="keyword">function</span>() {
+  console.log(<span class="string">"data changed!"</span>);
+});
+
+<span class="comment">// at some time in the future, we can unregister using</span>
+unwatch();</code></pre><h3 id="angularfire-firebaseobject-destroy">$destroy()</h3><p>Calling this method cancels event listeners and frees memory used by this object (deletes the
+local data). Changes are no longer synchronized to or from Firebase.</p><h2 id="angularfire-firebasearray">$firebaseArray</h2><p>The <code>$firebaseArray</code> service takes a <code>Firebase</code> reference and returns a JavaScript array which
+contains the data at the provided <code>Firebase</code> reference. Note that the data will not be available
+immediately since retrieving it is an asynchronous operation. You can use the <code>$loaded()</code> promise to
+get notified when the data has loaded.</p><p>This service automatically keeps this local array in sync with any changes made to the remote
+Firebase data. This is a <strong>PSEUDO READ-ONLY ARRAY</strong> suitable for use in directives like <code>ng-repeat</code>
+and with Angular filters (which expect an array).</p><p>While using read attributes and methods like <code>length</code> and <code>toString()</code> will work great on this array,
+you should avoid directly manipulating the array. Methods like <code>splice()</code>, <code>push()</code>, <code>pop()</code>,
+<code>shift()</code>, <code>unshift()</code>, and <code>reverse()</code> will cause the local data to become out of sync with the
+server. Instead, utilize the <code>$add()</code>, <code>$remove()</code>, and <code>$save()</code> methods provided by the service to
+change the structure of the array.</p><pre><code class="lang-js">app.controller(<span class="string">"MyCtrl"</span>, [<span class="string">"$scope"</span>, <span class="string">"$firebaseArray"</span>,
+  <span class="keyword">function</span>($scope, $firebaseArray) {
+    <span class="keyword">var</span> list = $firebaseArray(<span class="keyword"><span class="keyword">new</span></span> <span class="init">Firebase</span>(URL));
+
+    <span class="comment">// add an item</span>
+    list.$add({ foo: <span class="string">"bar"</span> }).then(...);
+
+    <span class="comment">// remove an item</span>
+    list.$remove(<span class="number">2</span>).then(...);
+
+    <span class="comment">// make the list available in the DOM</span>
+    $scope.list = list;
+  }
+]);</code></pre><pre><code class="lang-html">&lt;<span class="keyword">li</span> ng-repeat=<span class="string">"item in list | filter:name"</span>&gt;{{ item | json }}&lt;<span class="keyword">/li</span>&gt;
+
+Note that, while the array itself should not be modified, it is practical to change specific
+elements of the array and save them back to Firebase:
+
+```js
+// in JavaScript
+var list = $firebaseArray(new Firebase(URL));
+list[2].foo = <span class="string">"bar"</span>;
+list.$save(2);</code></pre><pre><code class="lang-html"><span class="comment">&lt;!-- in the dom --&gt;</span>
+&lt;<span class="keyword">li</span> ng-repeat=<span class="string">"item in list"</span>&gt;
+  &lt;<span class="keyword">input</span> ng-model=<span class="string">"item.foo"</span> ng-change=<span class="string">"list.$save(item)"</span> /&gt;
+&lt;<span class="keyword">/li</span>&gt;</code></pre><h3 id="angularfire-firebasearray-addnewdata">$add(newData)</h3><p>Creates a new record in Firebase and adds the record to our synchronized array.</p><p>This method returns a promise which is resolved after data has been saved to the server.
+The promise resolves to the Firebase reference for the newly added record, providing
+easy access to its key.</p><pre><code class="lang-js"><span class="keyword">var</span> list = $firebaseArray(ref);
+list.$add({ foo: <span class="string">"bar"</span> }).then(<span class="keyword">function</span>(ref) {
+  <span class="keyword">var</span> id = ref.key();
+  console.log(<span class="string">"added record with id "</span> + id);
+  list.$indexFor(id); <span class="comment">// returns location in the array</span>
+});</code></pre><h3 id="angularfire-firebasearray-removerecordorindex">$remove(recordOrIndex)</h3><p>Remove a record from Firebase and from the local data. This method returns a promise that
+resolves after the record is deleted at the server. It will contain a <code>Firebase</code> reference to
+the deleted record. It accepts either an array index or a reference to an item that
+exists in the array.</p><pre><code class="lang-js"><span class="keyword">var</span> list = $firebaseArray(ref);
+<span class="keyword">var</span> item = list[<span class="number">2</span>];
+list.$remove(item).then(<span class="keyword">function</span>(ref) {
+  ref.key() === item.$id; <span class="comment">// true</span>
+});</code></pre><h3 id="angularfire-firebasearray-saverecordorindex">$save(recordOrIndex)</h3><p>The array itself cannot be modified, but records in the array can be updated and saved back
+to Firebase individually. This method saves an existing, modified local record back to Firebase.
+It accepts either an array index or a reference to an item that exists in the array.</p><pre><code class="lang-js">$scope.list = $firebaseArray(ref);</code></pre><pre><code class="lang-html">&lt;<span class="keyword">li</span> ng-repeat=<span class="string">"item in list"</span>&gt;
+  &lt;<span class="keyword">input</span> type=<span class="string">"text"</span> ng-model=<span class="string">"item.title"</span> ng-change=<span class="string">"list.$save(item)"</span> /&gt;
+&lt;<span class="keyword">/li</span>&gt;</code></pre><p>This method returns a promise which is resolved after data has been saved to the server.
+The promise resolves to the <code>Firebase</code> reference for the saved record, providing easy
+access to its key.</p><pre><code class="lang-js"><span class="keyword">var</span> list = $firebaseArray(ref);
+list[<span class="number">2</span>].foo = <span class="string">"bar"</span>;
+list.$save(<span class="number">2</span>).then(<span class="keyword">function</span>(ref) {
+  ref.key() === list[<span class="number">2</span>].$id; <span class="comment">// true</span>
+});</code></pre><h3 id="angularfire-firebasearray-getrecordkey">$getRecord(key)</h3><p>Returns the record from the array for the given key. If the key is not found, returns <code>null</code>.
+This method utilizes <code>$indexFor(key)</code> to find the appropriate record.</p><pre><code class="lang-js"><span class="keyword">var</span> list = $firebaseArray(ref);
+<span class="keyword">var</span> rec = list.$getRecord(<span class="string">"foo"</span>); <span class="comment">// record with $id === <span class="string">"foo"</span> or null</span></code></pre><h3 id="angularfire-firebasearray-keyatrecordorindex">$keyAt(recordOrIndex)</h3><p>Returns the Firebase key for a record in the array. It accepts either an array index or
+a reference to an item that exists in the array.</p><pre><code class="lang-js"><span class="comment">// assume records <span class="string">"alpha"</span>, <span class="string">"bravo"</span>, and <span class="string">"charlie"</span></span>
+<span class="keyword">var</span> list = $firebaseArray(ref);
+list.$keyAt(<span class="number">1</span>); <span class="comment">// bravo</span>
+list.$keyAt( list[<span class="number">1</span>] ); <span class="comment">// bravo</span></code></pre><h3 id="angularfire-firebasearray-indexforkey">$indexFor(key)</h3><p>The inverse of <code>$keyAt()</code>, this method takes a key and finds the associated record in the array.
+If the record does not exist, -1 is returned.</p><pre><code class="lang-js"><span class="comment">// assume records <span class="string">"alpha"</span>, <span class="string">"bravo"</span>, and <span class="string">"charlie"</span></span>
+<span class="keyword">var</span> list = $firebaseArray(ref);
+list.$indexFor(<span class="string">"alpha"</span>); <span class="comment">// <span class="number">0</span></span>
+list.$indexFor(<span class="string">"bravo"</span>); <span class="comment">// <span class="number">1</span></span>
+list.$indexFor(<span class="string">"zulu"</span>); <span class="comment">// -<span class="number">1</span></span></code></pre><h3 id="angularfire-firebasearray-loaded">$loaded()</h3><p>Returns a promise which is resolved when the initial array data has been downloaded from Firebase.
+The promise resolves to the <code>$firebaseArray</code> itself.</p><pre><code class="lang-js"><span class="keyword">var</span> list = $firebaseArray(ref);
+list.$loaded()
+  .then(<span class="keyword">function</span>(x) {
+    x === list; <span class="comment">// true</span>
+  })
+  .catch(<span class="keyword">function</span>(error) {
+    console.log(<span class="string">"Error:"</span>, error);
+  });</code></pre><p>The resolve/reject methods may also be passed directly into $loaded:</p><pre><code class="lang-js"><span class="keyword">var</span> list = $firebaseArray(ref);
+list.$loaded(
+  <span class="keyword">function</span>(x) {
+    x === list; <span class="comment">// true</span>
+  }, <span class="keyword">function</span>(error) {
+    console.error(<span class="string">"Error:"</span>, error);
+  });</code></pre><h3 id="angularfire-firebasearray-ref">$ref()</h3><p>Returns the <code>Firebase</code> reference used to create this array.</p><pre><code class="lang-js"><span class="keyword">var</span> list = $firebaseArray(ref);
+sync === list.$ref(); <span class="comment">// true</span></code></pre><h3 id="angularfire-firebasearray-watchcb-context">$watch(cb[, context])</h3><p>Any callback passed here will be invoked each time data in the array is updated from the server.
+The callback receives an object with the following keys:</p><ul>
+<li><code>event</code>: The Firebase event type which fired (<code>child_added</code>, <code>child_moved</code>, <code>child_removed</code>, or <code>child_changed</code>).</li>
+<li><code>key</code>: The ID of the record that triggered the event.</li>
+<li><code>prevChild</code>: If event is <code>child_added</code> or <code>child_moved</code>, this contains the previous record’s key
+or <code>null</code> if <code>key</code> belongs to the first record in the collection.</li>
+</ul><pre><code class="lang-js"><span class="keyword">var</span> list = $firebaseArray(ref);
+
+list.$watch(<span class="keyword">function</span>(event) {
+  console.log(event);
+});
+
+<span class="comment">// logs { event: <span class="string">"child_removed"</span>, key: <span class="string">"foo"</span> }</span>
+list.$remove(<span class="string">"foo"</span>);
+
+<span class="comment">// logs { event: <span class="string">"child_added"</span>, key: <span class="string">"&lt;<span class="keyword"><span class="keyword">new</span></span> <span class="init">_id</span>&gt;"</span>, prevId: <span class="string">"&lt;prev_id&gt;"</span> }</span>
+list.$add({ hello: <span class="string">"world"</span> });</code></pre><p>A common use case for this would be to customize the sorting for a synchronized array. Since
+each time an add or update arrives from the server, the data could become out of order, we
+can re-sort on each event. We don’t have to worry about excessive re-sorts slowing down Angular’s
+compile process, or creating excessive DOM updates, because the events are already batched
+nicely into a single <code>$apply</code> event (we gather them up and trigger the events in batches before
+telling <code>$digest</code> to dirty check).</p><pre><code class="lang-js"><span class="keyword">var</span> list = $firebaseArray(ref);
+
+<span class="comment">// sort our list</span>
+list.sort(compare);
+
+<span class="comment">// each time the server sends records, re-sort</span>
+list.$watch(<span class="keyword">function</span>() { list.sort(compare); });
+
+<span class="comment">// custom sorting routine (sort by last name)</span>
+<span class="keyword">function</span> compare(a, b) {
+  <span class="keyword">return</span> a.lastName.localeCompare(b.lastName);
+}</code></pre><h3 id="angularfire-firebasearray-destroy">$destroy()</h3><p>Stop listening for events and free memory used by this array (empties the local copy).
+Changes are no longer synchronized to or from Firebase.</p><h2 id="angularfire-extending-the-services">Extending the Services</h2><p>There are several powerful techniques for transforming the data downloaded and saved
+by <code>$firebaseArray</code> and <code>$firebaseObject</code>. <strong>These techniques should only be attempted
+by advanced Angular users who know their way around the code.</strong></p><h3 id="angularfire-extending-the-services-firebaseobjectextend">$firebaseObject.$extend</h3><p>You can create a new factory from a <code>$firebaseObject</code>. It can add additional methods or override any existing method.</p><pre><code class="lang-js"><span class="keyword">var</span> ColorFactory = $firebaseObject.$extend({
+  getMyFavoriteColor: <span class="keyword">function</span>() {
+    <span class="keyword">return</span> this.favoriteColor + <span class="string">", no green!"</span>; <span class="comment">// obscure Monty Python reference</span>
+  }
+});
+
+<span class="keyword">var</span> factory = <span class="keyword"><span class="keyword">new</span></span> <span class="init">ColorFactory</span>(ref);
+<span class="keyword">var</span> favColor = factory.getMyFavoriteColor();</code></pre><p>This technique can also be used to transform how data is stored and saved by overriding the
+following private methods:</p><ul>
+<li><strong>$$updated</strong>: Called with a snapshot any time a <code>value</code> event is received from Firebase, must apply the updates and return true if any changes occurred.</li>
+<li><strong>$$error</strong>: Passed an <code>Error</code> any time a security error occurs. These are generally not recoverable.</li>
+<li><strong>$$notify</strong>: Sends notifications to any listeners registered with <code>$watch()</code>.</li>
+<li><strong>toJSON</strong>: As with any object, if a <code>toJSON()</code> method is provided, it will be used by <code>JSON.stringify()</code> to parse the JSON content before it is saved to Firebase.</li>
+<li><strong>$$defaults</strong>: A key / value pair that can be used to create default values for any fields which are not found in the server data (i.e. undefined fields). By default, they are applied each time <code>$$updated</code> is invoked. If that method is overridden, it would need to implement this behavior.</li>
+</ul><pre><code class="lang-js"><span class="comment">// Add a counter to our object...</span>
+<span class="keyword">var</span> FactoryWithCounter = $firebaseObject.$extend({
+  <span class="comment">// add a method to the prototype that returns our counter</span>
+  getUpdateCount: <span class="keyword">function</span>() { <span class="keyword">return</span> this._counter; },
+
+  <span class="comment">// each time an update arrives from the server, apply the change locally</span>
+  $$updated: <span class="keyword">function</span>(snap) {
+    <span class="comment">// apply the changes using the super method</span>
+    <span class="keyword">var</span> changed = $firebaseObject.prototype.$$updated.apply(this, arguments);
+
+    <span class="comment">// add / increment a counter each time there is an update</span>
+    <span class="keyword">if</span>( !this._counter ) { this._counter = <span class="number">0</span>; }
+    this._counter++;
+
+    <span class="comment">// <span class="keyword">return</span> whether or not changes occurred</span>
+    <span class="keyword">return</span> changed;
+  }
+});</code></pre><h3 id="angularfire-extending-the-services-firebasearrayextend">$firebaseArray.$extend</h3><p>You can create a new factory from a <code>$firebaseArray</code>. It can add additional methods or override any existing method.</p><pre><code class="lang-js">app.factory(<span class="string">"ArrayWithSum"</span>, <span class="keyword">function</span>($firebaseArray) {
+  <span class="keyword">return</span> $firebaseArray.$extend({
+    sum: <span class="keyword">function</span>() {
+      <span class="keyword">var</span> total = <span class="number">0</span>;
+      angular.forEach(this.$list, <span class="keyword">function</span>(rec) {
+        total += rec.x;
+      });
+      <span class="keyword">return</span> total;
+    }
+  });
+})</code></pre><p>We can then use this factory with by instantiating it:</p><pre><code class="lang-js"><span class="keyword">var</span> list = <span class="keyword"><span class="keyword">new</span></span> <span class="init">ArrayWithSum</span>(ref);
+list.$loaded().then(<span class="keyword">function</span>() {
+  console.log(<span class="string">"List has "</span> + list.sum() + <span class="string">" items"</span>);
+});</code></pre><p>This technique can be used to transform how data is stored by overriding the
+following private methods:</p><ul>
+<li><strong>$$added</strong>: Called with a snapshot and prevChild any time a <code>child_added</code> event occurs.</li>
+<li><strong>$$updated</strong>: Called with a snapshot any time a <code>child_changed</code> event occurs.</li>
+<li><strong>$$moved</strong>: Called with a snapshot and prevChild any time <code>child_moved</code> event occurs.</li>
+<li><strong>$$removed</strong>: Called with a snapshot any time a <code>child_removed</code> event occurs.</li>
+<li><strong>$$error</strong>: Passed an <code>Error</code> any time a security error occurs. These are generally not recoverable.</li>
+<li><strong>$$getKey</strong>: Tells AngularFire what the unique ID is for each record (the default just returns <code>this.$id</code>).</li>
+<li><strong>$$notify</strong>: Notifies any listeners registered with $watch; normally this method would not be modified.</li>
+<li><strong>$$process</strong>: Handles the actual splicing of data into and out of the array. Normally this method would not be modified.</li>
+<li><strong>$$defaults</strong>: A key / value pair that can be used to create default values for any fields which are not found in the server data (i.e. undefined fields). By default, they are applied each time <code>$$added</code> or <code>$$updated</code> are invoked. If those methods are overridden, they would need to implement this behavior.</li>
+</ul><p>To illustrate, let’s create a factory that creates <code>Widget</code> instances, and transforms dates:</p><pre><code class="lang-js"><span class="comment">// an object to <span class="keyword">return</span> in our WidgetFactory</span>
+app.factory(<span class="string">"Widget"</span>, <span class="keyword">function</span>($firebaseUtils) {
+  <span class="keyword">function</span> Widget(snapshot) {
+    <span class="comment">// store the record id so AngularFire can identify it</span>
+    this.$id = snapshot.key();
+
+    <span class="comment">// apply the data</span>
+    this.update(snapshot);
+  }
+
+  Widget.prototype = {
+    update: <span class="keyword">function</span>(snapshot) {
+      <span class="keyword">var</span> oldData = angular.extend({}, this.data);
+
+      <span class="comment">// apply changes to this.data instead of directly on `this`</span>
+      this.data = snapshot.val();
+
+      <span class="comment">// add a parsed date to our widget</span>
+      this._date = <span class="keyword"><span class="keyword">new</span></span> <span class="init">Date</span>(this.data.date);
+
+      <span class="comment">// determine <span class="keyword">if</span> anything changed, note that angular.equals will not check</span>
+      <span class="comment">// $value or $priority (since it excludes anything that starts with $)</span>
+      <span class="comment">// so be careful when using angular.equals()</span>
+      <span class="keyword">return</span> !angular.equals(this.data, oldData);
+    },
+
+    getDate: <span class="keyword">function</span>() {
+      <span class="keyword">return</span> this._date;
+    },
+
+    toJSON: <span class="keyword">function</span>() {
+      <span class="comment">// since we changed where our data is stored, we need to tell AngularFire how</span>
+      <span class="comment">// to get the JSON version of it. We can use $firebaseUtils.toJSON() to remove</span>
+      <span class="comment">// private variables, copy the data into a shippable format, and do validation</span>
+      <span class="keyword">return</span> $firebaseUtils.toJSON(this.data);
+    }
+  };
+
+  <span class="keyword">return</span> Widget;
+});
+
+<span class="comment">// now let's create a synchronized array factory that uses our Widget</span>
+app.factory(<span class="string">"WidgetFactory"</span>, <span class="keyword">function</span>($firebaseArray, Widget) {
+  <span class="keyword">return</span> $firebaseArray.$extend({
+    <span class="comment">// change the added behavior to <span class="keyword">return</span> Widget objects</span>
+    $$added: <span class="keyword">function</span>(snap) {
+      <span class="comment">// instead of creating the default POJO (plain old JavaScript object)</span>
+      <span class="comment">// we will <span class="keyword">return</span> an instance of the Widget class each time a child_added</span>
+      <span class="comment">// event is received from the server</span>
+      <span class="keyword">return</span> <span class="keyword"><span class="keyword">new</span></span> <span class="init">Widget</span>(snap);
+    },
+
+    <span class="comment">// override the update behavior to call Widget.update()</span>
+    $$updated: <span class="keyword">function</span>(snap) {
+      <span class="comment">// we need to <span class="keyword">return</span> true/false here or $watch listeners will not get triggered</span>
+      <span class="comment">// luckily, our Widget.prototype.update() method already returns a boolean <span class="keyword">if</span></span>
+      <span class="comment">// anything has changed</span>
+      <span class="keyword">return</span> this.$getRecord(snap.key()).update(snap);
+    }
+  });
+});</code></pre><h3 id="angularfire-extending-the-services-passing-a-class-into-extend">Passing a Class into $extend</h3><p>Instead of just a list of functions, we can also pass in a class constructor to inherit methods from
+<code>$firebaseArray</code>. The prototype for this class will be preserved, and it will inherit
+from <code>$firebaseArray</code>.</p><p><strong>This is an extremely advanced feature. Do not use this unless you know that you need it</strong></p><p>This class constructor is expected to call <code>$firebaseArray</code>‘s constructor (i.e. the super constructor).</p><p>The following factory adds an update counter which is incremented each time <code>$$added()</code>
+or <code>$$updated()</code> is called:</p><pre><code class="lang-js">app.factory(<span class="string">"ArrayWithCounter"</span>, <span class="keyword">function</span>($firebaseArray, Widget) {
+  <span class="comment">// $firebaseArray and $firebaseObject constructors both accept a single argument, a Firebase ref</span>
+  <span class="keyword">function</span> ArrayWithCounter(ref) {
+    <span class="comment">// initialize a counter</span>
+    this.counter = <span class="number">0</span>;
+
+    <span class="comment">// call the super constructor</span>
+    <span class="keyword">return</span> $firebaseArray.call(this, ref);
+  }
+
+  <span class="comment">// override the add behavior to <span class="keyword">return</span> a Widget</span>
+  ArrayWithCounter.prototype.$$added = <span class="keyword">function</span>(snap) {
+    <span class="keyword">return</span> <span class="keyword"><span class="keyword">new</span></span> <span class="init">Widget</span>(snap);
+  };
+
+  <span class="comment">// override the update behavior to call Widget.update()</span>
+  ArrayWithCounter.prototype.$$updated = <span class="keyword">function</span>(snap) {
+    <span class="keyword">var</span> widget = this.$getRecord(snap.key());
+    <span class="keyword">return</span> widget.update();
+  };
+
+  <span class="comment">// pass our constructor to $extend, which will automatically extract the</span>
+  <span class="comment">// prototype methods and call the constructor appropriately</span>
+  <span class="keyword">return</span> $firebaseArray.$extend(ArrayWithCounter);
+});</code></pre><h3 id="angularfire-extending-the-services-decorating-the-services">Decorating the Services</h3><p>In general, it will be more useful to extend the services to create new services than
+to use this technique. However, it is also possible to modify <code>$firebaseArray</code> or
+<code>$firebaseObject</code> globally by using Angular’s <code>$decorate()</code> method.</p><pre><code class="lang-js">app.config(<span class="keyword">function</span>($provide) {
+  $provide.decorator(<span class="string">"$firebaseObject"</span>, <span class="keyword">function</span>($delegate, $firebaseUtils) {
+    <span class="keyword">var</span> _super = $delegate.prototype.$$updated;
+
+    <span class="comment">// override any instance of $firebaseObject to look for a date field</span>
+    <span class="comment">// and transforms it to a Date object.</span>
+    $delegate.prototype.$$updated = <span class="keyword">function</span>(snap) {
+      <span class="keyword">var</span> changed = _super.call(this, snap);
+      <span class="keyword">if</span>( this.hasOwnProperty(<span class="string">"date"</span>) ) {
+        this._dateObj = <span class="keyword"><span class="keyword">new</span></span> <span class="init">Date</span>(this.date);
+      }
+      <span class="keyword">return</span> changed;
+    };
+
+    <span class="comment">// add a method that fetches the date object we just created</span>
+    $delegate.prototype.getDate = <span class="keyword">function</span>() {
+      <span class="keyword">return</span> this._dateObj;
+    };
+
+    <span class="comment">// variables starting with _ are ignored by AngularFire so we don't need</span>
+    <span class="comment">// to worry about the toJSON method here</span>
+
+    <span class="keyword">return</span> $delegate;
+  });
+});</code></pre><h2 id="angularfire-creating-angularfire-services">Creating AngularFire Services</h2><p>With the ability to extend the AngularFire services, services can be built to represent
+our synchronized collections with a minimal amount of code. For example, we can create
+a <code>User</code> factory:</p><pre><code class="lang-js"><span class="comment">// create a User factory with a getFullName() method</span>
+app.factory(<span class="string">"UserFactory"</span>, <span class="keyword">function</span>($firebaseObject) {
+  <span class="keyword">return</span> $firebaseObject.$extend({
+      getFullName: <span class="keyword">function</span>() {
+        <span class="comment">// concatenate first and last name</span>
+        <span class="keyword">return</span> this.first_name + <span class="string">" "</span> + this.last_name;
+      }
+   });
+});</code></pre><p>And create a new instance:</p><pre><code class="lang-js"><span class="comment">// create a User object from our Factory</span>
+app.factory(<span class="string">"User"</span>, <span class="keyword">function</span>(UserFactory) {
+  <span class="keyword">var</span> ref = <span class="keyword"><span class="keyword">new</span></span> <span class="init">Firebase</span>(URL+<span class="string">"/users/"</span>);
+  <span class="keyword">return</span> <span class="keyword">function</span>(userid) {
+    <span class="keyword">return</span> <span class="keyword"><span class="keyword">new</span></span> <span class="init">UserFactory</span>(ref.child(userid));
+  }
+});</code></pre><p>Similarly, we can extend <code>$firebaseArray</code> by creating a <code>Message</code> object:</p><pre><code class="lang-js">app.factory(<span class="string">"Message"</span>, <span class="keyword">function</span>($firebaseArray) {
+  <span class="keyword">function</span> Message(snap) {
+    <span class="comment">// store the user ID so AngularFire can identify the records</span>
+    <span class="comment">// in this case, we store it in a custom location, so we'll need</span>
+    <span class="comment">// to override $$getKey</span>
+    this.message_id = snap.key();
+    this.message = snap.val();
+  }
+  Message.prototype = {
+    update: <span class="keyword">function</span>(snap) {
+      <span class="comment">// store a string into this.message (instead of the default $value)</span>
+      <span class="keyword">if</span>( snap.val() !== this.message ) {
+        this.message = snap.val();
+        <span class="keyword">return</span> true;
+      }
+      <span class="keyword">return</span> false;
+    },
+    toJSON: <span class="keyword">function</span>() {
+      <span class="comment">// tell AngularFire what data to save, in this case a string</span>
+      <span class="keyword">return</span> this.message;
+    }
+  };
+
+  <span class="keyword">return</span> Message;
+});</code></pre><p>We can then use that to extend the <code>$firebaseArray</code> factory:</p><pre><code class="lang-js">app.factory(<span class="string">"MessageFactory"</span>, <span class="keyword">function</span>($firebaseArray, Message) {
+  <span class="keyword">return</span> $firebaseArray.$extend({
+    <span class="comment">// override the $createObject behavior to <span class="keyword">return</span> a Message object</span>
+    $$added: <span class="keyword">function</span>(snap) {
+      <span class="keyword">return</span> <span class="keyword"><span class="keyword">new</span></span> <span class="init">Message</span>(snap);
+    },
+
+    <span class="comment">// override the $$updated behavior to call a method on the Message</span>
+    $$updated: <span class="keyword">function</span>(snap) {
+      <span class="keyword">var</span> msg = this.$getRecord(snap.key());
+      <span class="keyword">return</span> msg.update(snap);
+    },
+
+    <span class="comment">// our messages store the unique id in a special location, so tell $firebaseArray</span>
+    <span class="comment">// how to find the id for each record</span>
+    $$getKey: <span class="keyword">function</span>(rec) {
+      <span class="keyword">return</span> rec.message_id;
+    }
+  });
+});</code></pre><p>And finally, we can put it all together into a synchronized list of messages:</p><pre><code class="lang-js">app.factory(<span class="string">"MessageList"</span>, <span class="keyword">function</span>(MessageFactory) {
+  <span class="keyword">return</span> <span class="keyword">function</span>(ref) {
+    <span class="keyword">return</span> <span class="keyword"><span class="keyword">new</span></span> <span class="init">MessageFactory</span>(ref);
+  }
+});</code></pre><h2 id="angularfire-users-and-authentication">Users and Authentication</h2><p>AngularFire includes support for <a href="https://www.firebase.com/docs/web/guide/user-auth.html">user authentication and management</a>
+with the <code>$firebaseAuth</code> service.</p><pre><code class="lang-js"><span class="keyword">var</span> app = angular.module(<span class="string">"app"</span>, [<span class="string">"firebase"</span>]);</code></pre><p><strong> Note: The <code>$firebaseAuth</code> service requires Firebase 1.1.0 or later. </strong></p><h3 id="angularfire-users-and-authentication-authentication-service-constructor">Authentication Service Constructor</h3><p>The <code>$firebaseAuth</code> factory takes a <code>Firebase</code> reference as its only
+argument. Note that the authentication state is global to your application, even if multiple
+<code>$firebaseAuth</code> objects are created.</p><pre><code class="lang-js">app.controller(<span class="string">"MyAuthCtrl"</span>, [<span class="string">"$scope"</span>, <span class="string">"$firebaseAuth"</span>,
+  <span class="keyword">function</span>($scope, $firebaseAuth) {
+    <span class="keyword">var</span> ref = <span class="keyword"><span class="keyword">new</span></span> <span class="init">Firebase</span>(<span class="string">"https:<span class="comment">//&lt;your-firebase&gt;.firebaseio.com"</span>);</span>
+    $scope.authObj = $firebaseAuth(ref);
+  }
+]);</code></pre><p>The authentication object returned by <code>$firebaseAuth</code> contains several methods for authenticating
+users, responding to changes in authentication state, and managing user accounts for email /
+password users.</p><h3 id="angularfire-users-and-authentication-authwithcustomtokenauthtoken-options">$authWithCustomToken(authToken[, options])</h3><p>Authenticates a Firebase client using an authentication token or Firebase Secret. This function
+takes two arguments: an authentication token or a Firebase Secret and an object containing optional
+client arguments, such as configuring session persistence.</p><pre><code class="lang-js">$scope.authObj.$authWithCustomToken(<span class="string">"&lt;CUSTOM_AUTH_TOKEN&gt;"</span>).then(<span class="keyword">function</span>(authData) {
+  console.log(<span class="string">"Logged in as:"</span>, authData.uid);
+}).catch(<span class="keyword">function</span>(error) {
+  console.error(<span class="string">"Authentication failed:"</span>, error);
+});</code></pre><p>This method returns a promise which is resolved or rejected when the authentication attempt is
+completed. If successful, the promise will be fulfilled with an object containing the payload of
+the authentication token. If unsuccessful, the promise will be rejected with an <code>Error</code> object.</p><p>Read <a href="https://www.firebase.com/docs/web/guide/login/custom.html">our documentation on Custom Login</a>
+for more details about generating your own custom authentication tokens.</p><h3 id="angularfire-users-and-authentication-authanonymouslyoptions">$authAnonymously([options])</h3><p>Authenticates a Firebase client using a new, temporary guest account. This function takes one
+argument: an object containing optional client arguments, such as configuring session persistence.</p><pre><code class="lang-js">$scope.authObj.$authAnonymously().then(<span class="keyword">function</span>(authData) {
+  console.log(<span class="string">"Logged in as:"</span>, authData.uid);
+}).catch(<span class="keyword">function</span>(error) {
+  console.error(<span class="string">"Authentication failed:"</span>, error);
+});</code></pre><p>This method returns a promise which is resolved or rejected when the authentication attempt is
+completed. If successful, the promise will be fulfilled with an object containing authentication
+data about the logged-in user. If unsuccessful, the promise will be rejected with an <code>Error</code> object.</p><p>Read <a href="https://www.firebase.com/docs/web/guide/login/anonymous.html">our documentation on anonymous authentication</a>
+for more details about anonymous authentication.</p><h3 id="angularfire-users-and-authentication-authwithpasswordcredentials-options">$authWithPassword(credentials[, options])</h3><p>Authenticates a Firebase client using an email / password combination. This function takes two
+arguments: an object containing <code>email</code> and <code>password</code> attributes corresponding to the user account
+and an object containing optional client arguments, such as configuring session persistence.</p><pre><code class="lang-js">$scope.authObj.$authWithPassword({
+  email: <span class="string">"my@email.com"</span>,
+  password: <span class="string">"mypassword"</span>
+}).then(<span class="keyword">function</span>(authData) {
+  console.log(<span class="string">"Logged in as:"</span>, authData.uid);
+}).catch(<span class="keyword">function</span>(error) {
+  console.error(<span class="string">"Authentication failed:"</span>, error);
+});</code></pre><p>This method returns a promise which is resolved or rejected when the authentication attempt is
+completed. If successful, the promise will be fulfilled with an object containing authentication
+data about the logged-in user. If unsuccessful, the promise will be rejected with an <code>Error</code> object.</p><p>Read <a href="https://www.firebase.com/docs/web/guide/login/password.html">our documentation on email / password authentication</a>
+for more details about email / password authentication.</p><h3 id="angularfire-users-and-authentication-authwithoauthpopupprovider-options">$authWithOAuthPopup(provider[, options])</h3><p>Authenticates a Firebase client using a popup-based OAuth flow. This function takes two
+arguments: the unique string identifying the OAuth provider to authenticate with (e.g. <code>"google"</code>)
+and an object containing optional client arguments, such as configuring session persistence.</p><pre><code class="lang-js">$scope.authObj.$authWithOAuthPopup(<span class="string">"google"</span>).then(<span class="keyword">function</span>(authData) {
+  console.log(<span class="string">"Logged in as:"</span>, authData.uid);
+}).catch(<span class="keyword">function</span>(error) {
+  console.error(<span class="string">"Authentication failed:"</span>, error);
+});</code></pre><p>This method returns a promise which is resolved or rejected when the authentication attempt is
+completed. If successful, the promise will be fulfilled with an object containing authentication
+data about the logged-in user. If unsuccessful, the promise will be rejected with an <code>Error</code> object.</p><p>Firebase currently supports Facebook, GitHub, Google, and Twitter authentication. Refer to
+<a href="https://www.firebase.com/docs/web/guide/user-auth.html#section-providers">the table on our user authentication documentation</a>
+for information about configuring each provider.</p><h3 id="angularfire-users-and-authentication-authwithoauthredirectprovider-options">$authWithOAuthRedirect(provider[, options])</h3><p>Authenticates a Firebase client using a redirect-based OAuth flow. This function takes two
+arguments: the unique string identifying the OAuth provider to authenticate with (e.g. <code>"google"</code>)
+and an object containing optional client arguments, such as configuring session persistence.</p><pre><code class="lang-js">$scope.authObj.$authWithOAuthPopup(<span class="string">"google"</span>).then(<span class="keyword">function</span>(authData) {
+  console.log(<span class="string">"Logged in as:"</span>, authData.uid);
+}).catch(<span class="keyword">function</span>(error) {
+  console.error(<span class="string">"Authentication failed:"</span>, error);
+});</code></pre><p>This method returns a promise which is resolved or rejected when the authentication attempt is
+completed. If successful, the promise will be fulfilled with an object containing authentication
+data about the logged-in user. If unsuccessful, the promise will be rejected with an <code>Error</code> object.</p><p>Firebase currently supports Facebook, GitHub, Google, and Twitter authentication. Refer to
+<a href="https://www.firebase.com/docs/web/guide/user-auth.html#section-providers">the table on our user authentication documentation</a>
+for information about configuring each provider.</p><h3 id="angularfire-users-and-authentication-authwithoauthtokenprovider-credentials-options">$authWithOAuthToken(provider, credentials[, options])</h3><p>Authenticates a Firebase client using OAuth access tokens or credentials. This function takes three
+arguments: the unique string identifying the OAuth provider to authenticate with (e.g. <code>"google"</code>),
+either a string, such as an OAuth 2.0 access token, or an object of key / value pairs, such as a set
+of OAuth 1.0a credentials, and an object containing optional client arguments, such as configuring
+session persistence.</p><pre><code class="lang-js">$scope.authObj.$authWithOAuthPopup(<span class="string">"google"</span>).then(<span class="keyword">function</span>(authData) {
+  console.log(<span class="string">"Logged in as:"</span>, authData.uid);
+}).catch(<span class="keyword">function</span>(error) {
+  console.error(<span class="string">"Authentication failed:"</span>, error);
+});</code></pre><p>This method returns a promise which is resolved or rejected when the authentication attempt is
+completed. If successful, the promise will be fulfilled with an object containing authentication
+data about the logged-in user. If unsuccessful, the promise will be rejected with an <code>Error</code> object.</p><p>Firebase currently supports Facebook, GitHub, Google, and Twitter authentication. Refer to
+<a href="https://www.firebase.com/docs/web/guide/user-auth.html#section-providers">the table on our user authentication documentation</a>
+for information about configuring each provider.</p><h3 id="angularfire-users-and-authentication-getauth">$getAuth()</h3><p>Synchronously retrieves the current authentication state of the client. If the user is
+authenticated, an object containing the fields <code>uid</code> (the unique user ID), <code>provider</code> (string
+identifying the provider), <code>auth</code> (the authentication token payload), and <code>expires</code> (expiration
+time in seconds since the Unix epoch) - and more, depending upon the provider used to authenticate -
+will be returned. Otherwise, the return value will be <code>null</code>.</p><pre><code class="lang-js"><span class="keyword">var</span> authData = $scope.authObj.$getAuth();
+
+<span class="keyword">if</span> (authData) {
+  console.log(<span class="string">"Logged in as:"</span>, authData.uid);
+} <span class="keyword">else</span> {
+  console.log(<span class="string">"Logged out"</span>);
+}</code></pre><h3 id="angularfire-users-and-authentication-onauthcallback-context">$onAuth(callback[, context])</h3><p>Listens for changes to the client’s authentication state. The provided <code>callback</code> will fire when
+the client’s authenticate state changes. If authenticated, the callback will be passed an object
+containing the fields <code>uid</code> (the unique user ID), <code>provider</code> (string identifying the provider),
+<code>auth</code> (the authentication token payload), and <code>expires</code> (expiration time in seconds since the Unix
+epoch) - and more, depending upon the provider used to authenticate. Otherwise, the callback will
+be passed <code>null</code>.</p><pre><code class="lang-js">$scope.authObj.$onAuth(<span class="keyword">function</span>(authData) {
+  <span class="keyword">if</span> (authData) {
+    console.log(<span class="string">"Logged in as:"</span>, authData.uid);
+  } <span class="keyword">else</span> {
+    console.log(<span class="string">"Logged out"</span>);
+  }
+});</code></pre><p>This method can also take an optional second argument which, if provided, will be used as <code>this</code>
+when calling your callback.</p><p>This method returns a function which can be used to unregister the provided <code>callback</code>. Once the
+<code>callback</code> is unregistered, changes in authentication state will not cause the <code>callback</code> to fire.</p><pre><code class="lang-js"><span class="keyword">var</span> offAuth = $scope.authObj.$onAuth(callback);
+
+<span class="comment">// ... sometime later, unregister the callback</span>
+offAuth();</code></pre><h3 id="angularfire-users-and-authentication-unauth">$unauth()</h3><p>Unauthenticates a Firebase client. This method should be called when you want to log out the
+current user. It takes no arguments and returns no value. When logout is called, the
+<code>$onAuth()</code> callback(s) will be fired.</p><pre><code class="lang-html">&lt;<span class="keyword">span</span> ng-show=<span class="string">"authData"</span>&gt;
+  {{ authData.name }} | &lt;<span class="keyword">a</span> href=<span class="string">"#"</span> ng-click=<span class="string">"authObj.$unauth()"</span>&gt;Logout&lt;<span class="keyword">/a</span>&gt;
+&lt;<span class="keyword">/span</span>&gt;</code></pre><h3 id="angularfire-users-and-authentication-waitforauth">$waitForAuth()</h3><p>Helper method which returns a promise fulfilled with the current authentication state. This is
+intended to be used in the <code>resolve()</code> method of Angular routers. See the
+<a href="https://www.firebase.com/docs/web/libraries/angular/guide.html#section-routes">“Using Authentication with Routers”</a>
+section of our AngularFire guide for more information and a full example.</p><h3 id="angularfire-users-and-authentication-requireauth">$requireAuth()</h3><p>Helper method which returns a promise fulfilled with the current authentication state if the user
+is authenticated but otherwise rejects the promise. This is intended to be used in the <code>resolve()</code>
+method of Angular routers to prevented unauthenticated users from seeing authenticated pages
+momentarily during page load. See the
+<a href="https://www.firebase.com/docs/web/libraries/angular/guide.html#section-routes">“Using Authentication with Routers”</a>
+section of our AngularFire guide for more information and a full example.</p><h3 id="angularfire-users-and-authentication-createusercredentials">$createUser(credentials)</h3><p>Creates a new user account using an email / password combination. This function returns a promise
+that is resolved with an object containing user data about the created user. Currently, the object
+only contains the created user’s <code>uid</code>.</p><pre><code class="lang-js">$scope.authObj.$createUser({
+  email: <span class="string">"my@email.com"</span>,
+  password: <span class="string">"mypassword"</span>
+}).then(<span class="keyword">function</span>(userData) {
+  console.log(<span class="string">"User "</span> + userData.uid + <span class="string">" created successfully!"</span>);
+
+  <span class="keyword">return</span> $scope.authObj.$authWithPassword({
+    email: <span class="string">"my@email.com"</span>,
+    password: <span class="string">"mypassword"</span>
+  });
+}).then(<span class="keyword">function</span>(authData) {
+  console.log(<span class="string">"Logged in as:"</span>, authData.uid);
+}).catch(<span class="keyword">function</span>(error) {
+  console.error(<span class="string">"Error: "</span>, error);
+});</code></pre><p>Note that this function only creates the user. If you wish to log in as the newly created user,
+call <code>$authWithPassword()</code> after the promise for this method has been fulfilled.</p><h3 id="angularfire-users-and-authentication-changepasswordcredentials">$changePassword(credentials)</h3><p>Changes the password of an existing user using an email / password combination. This function
+returns a promise that is resolved when the password has been successfully changed on the Firebase
+servers.</p><pre><code class="lang-text">$scope.authObj.$changePassword({
+  email: <span class="string">"my@email.com"</span>,
+  oldPassword: <span class="string">"mypassword"</span>,
+  newPassword: <span class="string">"otherpassword"</span>
+}).then(function() {
+  console.log(<span class="string">"Password changed successfully!"</span>);
+}).catch(function(error) {
+  console.error(<span class="string">"Error: "</span>, error);
+});</code></pre><h3 id="angularfire-users-and-authentication-changeemailcredentials">$changeEmail(credentials)</h3><p>Changes the email of an existing user using an email / password combination. This function returns
+a promise that is resolved when the email has been successfully changed on the Firebase servers.</p><pre><code class="lang-text">$scope.authObj.$changeEmail({
+  oldEmail: <span class="string">"my@email.com"</span>,
+  newEmail: <span class="string">"other@email.com"</span>,
+  password: <span class="string">"mypassword"</span>
+}).then(function() {
+  console.log(<span class="string">"Email changed successfully!"</span>);
+}).catch(function(error) {
+  console.error(<span class="string">"Error: "</span>, error);
+});</code></pre><p><strong> Note: The <code>$changeEmail()</code> method requires Firebase 2.1.0 or later. </strong></p><h3 id="angularfire-users-and-authentication-removeusercredentials">$removeUser(credentials)</h3><p>Removes an existing user account using an email / password combination. This function returns a
+promise that is resolved when the user has been successfully removed on the Firebase servers.</p><pre><code class="lang-js">$scope.authObj.$removeUser({
+  email: <span class="string">"my@email.com"</span>,
+  password: <span class="string">"mypassword"</span>
+}).then(<span class="keyword">function</span>() {
+  console.log(<span class="string">"User removed successfully!"</span>);
+}).catch(<span class="keyword">function</span>(error) {
+  console.error(<span class="string">"Error: "</span>, error);
+});</code></pre><p>Note that removing a user also logs that user out and will therefor fire any <code>onAuth()</code> callbacks
+that you have created.</p><h3 id="angularfire-users-and-authentication-resetpasswordcredentials">$resetPassword(credentials)</h3><p>Sends a password-reset email to the owner of the account, containing a token that may be used to
+authenticate and change the user’s password. This function returns a promise that is resolved when
+the email notification has been sent successfully.</p><pre><code class="lang-js">$scope.authObj.$resetPassword({
+  email: <span class="string">"my@email.com"</span>
+}).then(<span class="keyword">function</span>() {
+  console.log(<span class="string">"Password reset email sent successfully!"</span>);
+}).catch(<span class="keyword">function</span>(error) {
+  console.error(<span class="string">"Error: "</span>, error);
+});</code></pre><h2 id="angularfire-browser-compatibility">Browser Compatibility</h2><table>
+  <tbody><tr>
+    <th>Browser</th>
+    <th>Version Supported</th>
+    <th>With Polyfill</th>
+  </tr>
+  <tr>
+    <td>Internet Explorer</td>
+    <td>9+</td>
+    <td>9+ (Angular 1.3 only supports 9+)</td>
+  </tr>
+  <tr>
+    <td>Firefox</td>
+    <td>4.0</td>
+    <td>3.0?</td>
+  </tr>
+  <tr>
+    <td>Chrome</td>
+    <td>7</td>
+    <td>5?</td>
+  </tr>
+  <tr>
+    <td>Safari</td>
+    <td>5.1.4</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <td>Opera</td>
+    <td>11.6</td>
+    <td>?</td>
+  </tr>
+</tbody></table><p>Polyfills are automatically included to support older browsers. See <code>src/polyfills.js</code> for links
+and details.</p></div>
+    </div>
+  
+
+</body></html>
