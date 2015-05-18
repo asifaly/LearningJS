@@ -1,0 +1,55 @@
+<html>
+
+<head>
+
+    <title>JQuery Animations</title>
+
+    <script type="text/javascript" src="jquery-2.1.4.js"></script>
+
+
+
+    <script type="text/javascript">
+        $("document").ready(function () {
+
+            $('#deleteSpan').bind('click', deleteSpan);
+            // before places the new element before the paragraph
+            $('#randPara').before('<span>Before Paragraph</span>');
+            // insertBefore places the new element as a sibling
+            $('<span> Insert Before Paragraph</span>').insertBefore('#randPara');
+            // prependTo places the new element as the first child of the element
+            $('<span>Prepend To Paragraph</span>').prependTo('#randPara');
+            // appendTo places the new element as a child
+            $('<span>Append To Paragraph</span>').appendTo('#randPara');
+            // append places the new element as the last child of the element
+            $('#randPara').append('<span> Append Paragraph</span>');
+            // insertAfter places the new element as a sibling
+            $('<span> Insert After Paragraph</span>').insertAfter('#randPara');
+            // after places the new element after the paragraph
+            $('#randPara').after('<span> After Paragraph</span>');
+
+            function deleteSpan() {
+                $('span').remove(':contains("Append")');
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+    <div>
+        <h3>Playing With Text</h3> </div>
+    <div>
+        <h3 id="h3Tag">H3 Tag</h3> </div>
+    <br />
+    <div id="randPara">
+        <p id="firstP">The First Paragraph
+        </p>
+    </div>
+    <br />
+    <br />
+    <form action="">
+        <button type="button" id="deleteSpan">Delete Spans</button>
+    </form>
+    <br /> </body>
+
+</html>

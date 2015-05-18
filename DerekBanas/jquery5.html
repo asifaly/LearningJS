@@ -1,0 +1,144 @@
+<html>
+
+<head>
+
+    <title>JQuery Animations</title>
+
+    <script type="text/javascript" src="jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="jquery-ui.js"></script>
+    <script type="text/javascript">
+        $("document").ready(function () {
+            $('#hideLogo').bind('click', hideTheImage);
+            $('#showLogo').bind('click', showTheImage);
+            $('#toggleText').bind('click', toggleTheText);
+            $('#fadeLogo').bind('click', fadeTheImage);
+            $('#fadeALittle').bind('click', fadeALittle);
+            $('#fullOpacity').bind('click', fullOpacityImage);
+            $('#slideAway').bind('click', slideTheImage);
+            $('#slideBack').bind('click', unslideTheImage);
+            $('#customAnim').bind('click', customAnimate);
+            $('#shakeLogo').bind('click', shakeLogo);
+            $('#bounceLogo').bind('click', bounceLogo);
+            $('#highlightLogo').bind('click', highlightLogo);
+            $('#pulsateLogo').bind('click', pulsateLogo);
+            $('#sizeLogo').bind('click', sizeLogo);
+        });
+
+        function hideTheImage() {
+            $('#logo').hide('puff', {}, 2500);
+            // I could also hide with effects .hide('effect', {properties}, 1000);
+            // Effects: blind, clip, drop, explode, fade, fold, puff, slide, scale
+        }
+
+        function showTheImage() {
+            $('#logo').show('fold', {}, 2500);
+        }
+
+        // Displays or hides matching elements on the page
+        function toggleTheText() {
+            $("h4").toggle(2500);
+        }
+
+        function fadeTheImage() {
+            $('#logo').fadeOut(2500);
+        }
+
+        function fadeALittle() {
+            $('#logo').fadeTo(2500, .30);
+        }
+
+        function fullOpacityImage() {
+            $('#logo').fadeTo(2500, 1);
+        }
+
+        function slideTheImage() {
+            $('#second').slideUp(2500);
+        }
+
+        function unslideTheImage() {
+            $('#second').slideDown(2500);
+        }
+
+        // animate only allows linear or swing easing
+        // With the JQuery UI Library you get many more easeOutElastic, easeInCirc,
+        // easeInOutExpo, easeOutBack, easeInOutElastic, easeOutBounce
+        function customAnimate() {
+            $('#logo').animate({
+                opacity: 0.25,
+                height: '150px'
+            }, 2000, 'easeOutBounce');
+
+        }
+
+        function shakeLogo() {
+            $('#logo').effect('shake', {
+                times: 5,
+                direction: 'down',
+                distance: 10
+            }, 200);
+        }
+
+        function bounceLogo() {
+            $('#logo').effect('bounce', {
+                times: 5,
+                direction: 'up',
+                distance: 10
+            }, 200);
+        }
+
+        function highlightLogo() {
+            $('h3').effect('highlight ', {
+                color: 'purple'
+            }, 500);
+        }
+
+        function pulsateLogo() {
+            $('#logo').effect('pulsate', {
+                times: 5
+            }, 200);
+        }
+
+        function sizeLogo() {
+            $('#logo').effect('size', {
+                to: {
+                    height: 350,
+                    width: 350
+                }
+            }, 200);
+        }
+    </script>
+
+</head>
+
+<body>
+    <div>
+        <h3>Playing with Animation's</h3> </div>
+    <div id="logoDiv"> <img src='ThinkTankLogo.gif' id='logo' alt="LittleBrain" height="75"> </div>
+    <br />
+    <div>
+        <h4>Message 1</h4>
+        <h4 style="display: none">Message 2</h4> </div>
+    <div>
+        <p id="second">Here today, gone in a click!</p>
+        <p id="third">Waiting for Change</p>
+    </div>
+    <br />
+    <form action="">
+        <button type="button" id="hideLogo">Hide the Logo</button>
+        <button type="button" id="showLogo">Show the Logo</button>
+        <button type="button" id="fadeLogo">Fade the Logo</button>
+        <button type="button" id="fadeALittle">Fade a Little</button>
+        <button type="button" id="fullOpacity">Full Opacity</button>
+        <button type="button" id="toggleText">Toggle the Text</button>
+        <button type="button" id="slideAway">Slide away Text</button>
+        <button type="button" id="slideBack">Slide Text Back</button>
+        <button type="button" id="customAnim">Custom Animation</button>
+        <button type="button" id="shakeLogo">Shake Logo</button>
+        <button type="button" id="bounceLogo">Bounce Logo</button>
+        <button type="button" id="highlightLogo">Highlight Logo</button>
+        <button type="button" id="pulsateLogo">Pulsate Logo</button>
+        <button type="button" id="sizeLogo">Size Logo</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<html ng-app="testApp">
+
+<head>
+    <title>
+        Test Angular
+    </title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-controller="MainCtrl">
+    <div class="container">
+        <input type="text" ng-model="test" placeholder="Enter a color">
+        <h1 style="color:{{test}}">{{test}}</h1>
+        <input type="text" ng-model="font" placeholder="Enter a number">
+        <ul>
+            <li ng-repeat="data in datas" style="font-size:{{font}}px">{{data.name}} - {{data.age}}<a ng-click="removeData(data)">Remove</a>
+            </li>
+        </ul>
+        <input type="text" ng-model="name" placeholder="Name">
+        <input type="text" ng-model="age" placeholder="Age">
+        <input type="submit" value="Add Data" ng-click="addData(name,age)">
+    </div>
+</body>
+
+</html>

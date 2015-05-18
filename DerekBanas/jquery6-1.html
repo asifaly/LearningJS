@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>JQuery Animations</title>
+    <script type="text/javascript" src="jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="jquery-ui.js"></script>
+    <style>
+        h4 {
+            background-color: DarkSlateGray;
+            color: white;
+            padding: 10px;
+        }
+        
+        div {
+            background-color: LightCyan;
+            width: 200px;
+            overflow: hidden;
+        }
+    </style>
+    <script type="text/javascript">
+        $("document").ready(function () {
+            $('#superHumans > div').hide();
+            $('#superHumans h4').click(
+                function () {
+                    $(this).siblings('div:visible').slideUp('2000');
+                    $(this).next().animate({
+                        ' height ': 'toggle'
+                    }, ' 2000', 'easeInOutExpo');
+                });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="superHumans">
+        <h4>Beyonder</h4>
+        <div> He had the power to achieve what ever he pleased. He has vast power to alter reality on a planetary scale. </div>
+        <h4>Thanos</h4>
+        <div> Gifted with immortality and unaffected by attacks of any kind. </div>
+        <h4>Galactus</h4>
+        <div> He can levitate; restructure molecules; convert matter into energy and vice-versa; project energy with enormous concussive force; teleport himself, others, and objects across space, dimensions, and time; erect virtually impenetrable fields; restore others from any injury, even total disintegration; and endow or enhance powers within others. </div>
+        <h4>Franklin Richards</h4>
+        <div> He has vast telepathic powers, tremendous telekinetic powers, the ability to fire enormously powerful energy blasts, and the ability to rearrange the molecular structure of matter, even up to a cosmic scale. </div>
+        <h4>Doctor Manhattan</h4>
+        <div> Mastery over the manipulation of all matter and energy. Knowledge of all that has occurred in the past and present. </div>
+    </div>
+</body>
+
+</html>
