@@ -1,0 +1,6 @@
+<a data-ng-href="#/done" data-ng-click="mn.clearDone()">Clear Completed</a>
+<div class="list-group">
+    <a class="list-group-item inactive" data-ng-repeat="td in mn.todosDone">
+        <h4 class="list-group-item-heading">{{td.name}}</h4>
+    </a>
+</div>

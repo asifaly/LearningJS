@@ -1,0 +1,6 @@
+<div class="list-group">
+    <a ng-href="#/" class="list-group-item inactive" data-ng-repeat="(id, todo) in mn.todosDue">
+        <input type="checkbox" class="pull-left" style="margin-right: 10px;" ng-model="checked" ng-change="mn.markDone(id)" ng-href="/">
+        <h4 class="list-group-item-heading" data-ng-bind="todo.name" style="text-decoration: line-through;"></h4>
+    </a>
+</div>
