@@ -1,0 +1,9 @@
+{
+  "firebase": "asiftodo",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
